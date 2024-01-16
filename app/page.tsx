@@ -40,28 +40,17 @@ export default function Home() {
               <span className="text-center mt-5 text-xl font-semibold leading-relaxed">
                 Siddhartha Singh
               </span>
-              <span className="leading-relaxed">
+              {/* <span className="leading-relaxed">
                 Next.js Enthusiast and Innovation Sorcerer
-              </span>
+              </span> */}
             </div>
           </div>
 
-          <div className="mt-8 text-center">
+          <div className="mt-4 text-center">
             <span className="text-white leading-relaxed font-semibold text-center">
               Connect with me: Follow me on all platforms
             </span>
             <div className="flex flex-col justify-center items-center gap-3 mt-4 w-full">
-              <span className="w-full">
-                <Link
-                  href={"https://siddharthasingh.vercel.app"}
-                  target="_blank"
-                >
-                  <Button className="w-full bg-white text-black hover:text-white flex gap-2 items-center">
-                    <Book />
-                    Portfolio
-                  </Button>
-                </Link>
-              </span>
               <span className="w-full">
                 <Link
                   href={"https://linkedin.com/in/siddhartha-singh-work"}
@@ -74,6 +63,18 @@ export default function Home() {
                   </Button>
                 </Link>
               </span>
+              <span className="w-full">
+                <Link
+                  href={"https://siddharthasingh.vercel.app"}
+                  target="_blank"
+                >
+                  <Button className="w-full bg-white text-black hover:text-white flex gap-2 items-center">
+                    <Book />
+                    Portfolio
+                  </Button>
+                </Link>
+              </span>
+
               <span className="w-full">
                 <Link
                   href={"https://github.com/siddhartha-up80"}
@@ -99,10 +100,7 @@ export default function Home() {
                 </Link>
               </span>
               <span className="w-full">
-                <Link
-                  href={"https://instagram.com/sid_up80"}
-                  target="_blank"
-                >
+                <Link href={"https://instagram.com/sid_up80"} target="_blank">
                   {" "}
                   <Button className="w-full bg-white text-black hover:text-white flex gap-2 items-center">
                     <Instagram />
