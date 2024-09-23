@@ -65,7 +65,7 @@ export default function Home() {
               </span>
               <span className="w-full">
                 <Link
-                  href={"https://siddharthasingh.vercel.app"}
+                  href={"https://siddharthasingh.me"}
                   target="_blank"
                 >
                   <Button className="w-full bg-white text-black hover:text-white flex gap-2 items-center">
